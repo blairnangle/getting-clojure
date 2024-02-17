@@ -1,0 +1,7 @@
+/.nrepl-port
+.idea
+.clj-kondo/.cache
+.cpcache
+.DS_Store
+*.iml
+.gitmessage
