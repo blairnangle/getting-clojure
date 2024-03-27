@@ -1,5 +1,6 @@
 {:paths ["src"]
  :deps  {org.clojure/test.check {:mvn/version "1.1.1"}
-         com.google.code.gson/gson {:mvn/version "2.10.1"}}
+         com.google.code.gson/gson {:mvn/version "2.10.1"}
+         clj-time/clj-time {:mvn/version "0.15.2"}}
  :aliases
  {:neil {:project {:name getting-clojure/getting-clojure}}}}
