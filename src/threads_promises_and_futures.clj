@@ -104,7 +104,7 @@
       (is (= (deref total-copies) 700))))
 
   (testing "futures"
-    ;; @ on a promise or future is shorthand for deref
+    ;; @ on a promise or future (or atom, ref or agent) is shorthand for deref
     ;; no need to explicitly deliver a result - Clojure takes care of that for us
     ;; this will take a while, but we'll get the result eventually
     (is (= @my-future 4))))
